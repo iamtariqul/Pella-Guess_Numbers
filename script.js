@@ -1,8 +1,6 @@
 'use strict'
 
-// console.log(document.querySelector('.message').textContent='You win')
 let guessNumber = Math.trunc(Math.random() *20)+1;
-console.log(guessNumber)
 let score = 20;
 let highscore = 0;
 
